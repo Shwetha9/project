@@ -1,0 +1,273 @@
+/* Style.css */
+
+body 
+{
+    font-family: 'Poiret One', cursive;
+    font-weight: 300;
+    background-color:white;
+    width: 100%;
+
+}
+
+#layout
+{
+    padding:10px;
+    margin:0 auto;
+    width:80%;
+
+}
+
+
+
+.header
+{
+    width:100%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    opacity:0.9;
+    padding: 0px;
+    background: -webkit-linear-gradient(#C03C44,#F56757); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C03C44,#F56757); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C03C44,#F56757); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C03C44,#F56757); /* Standard syntax (must be last) */
+    opacity: 0.85;
+    height:500px;
+}
+
+#logo
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto; 
+    width:200px;
+    height:200px;
+}
+
+
+p 
+{
+    font-family: 'Poiret One', cursive; 
+    font-size: 20px;
+    text-align: left;
+    margin-top:0;
+    color: black;
+    padding:2px;
+}
+
+.whitebig
+{
+    font-size:40px;
+    font-family:'Special Elite',cursive;
+}
+
+h1
+{
+    font-size: 80px;
+    margin: 0;
+    padding:5px;
+    text-align:center;
+}
+
+h2 
+{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 20 0;
+    padding: 5px;
+}
+
+section 
+{
+   clear: both;
+   overflow: hidden;
+}
+
+div
+{
+    overflow: hidden;
+}
+#name 
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    width: 100%;
+}
+
+
+.color2
+{
+    margin:0 auto;
+    background:#13A39E;
+    height: 150px;
+    padding:10px;
+    margin-right: auto;
+    margin-left: auto;
+/* Chrome, Safari, Opera */
+-webkit-animation-name:myfirst;
+-webkit-animation-duration:8s;
+-webkit-animation-delay:1s;
+-webkit-animation-iteration-count:infinite;
+/* Standard syntax */
+animation-name:myfirst;
+animation-duration:5s;
+animation-delay:2s;
+animation-iteration-count:infinite;
+}
+/*Chrome, Safari, Opera*/
+@-webkit-keyframes myfirst
+{
+    0%   {background:#477984;}
+    20%  {background:#A75265;}
+    40%  {background:#EC7263;}
+    60% {background:#FEBE7E;}
+    80% {background:#3E94A2;}
+    100%{background:#57385C;}
+}
+/*Standard Syntax*/
+@keyframes myfirst
+{
+    0%   {background:#57385C;}
+    20%  {background:#A75265;}
+    40%  {background:#EC7263;}
+    60% {background:#57385C;}
+    80% {background:#3E94A2;}
+    100%{background:#57385C;}
+}
+
+
+#About_Me
+{
+    width:100%;
+    padding:10px;
+    margin: 0 auto;
+
+}
+
+.color2a
+{
+    margin:0 auto;
+    background:#F19181;
+    border-top:10px solid white;
+
+}
+
+.leftright
+{
+    width:100%;
+    margin:0 auto;
+}
+
+
+.color3
+{
+    width:42%;
+    background:#13A39E;
+    border-top: 10px #9C3687;
+    border-bottom:10px #9C3687;
+    float:left;
+    height:580px;
+    padding:7px;
+}
+
+h3 
+{
+    color:black;
+    padding-left: 5px;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+
+h4
+{
+   font-size: 25px;
+   margin:0;
+}
+
+h5
+{
+    
+    font-size: 20px;
+    margin-top:0;
+    margin-bottom: 0;
+    color: white;
+
+}
+
+
+
+.color4 
+{
+    float:right;
+    width:42%;
+    background:#13A39E;
+    border-top: 10px #9C3687;
+    border-bottom: 10px #9C3687;
+    padding:7px;
+    height:580px;
+}
+
+
+h6 
+{
+    padding-left: 5px;
+    font-size: 25px;
+    margin:  0 0 0 0;
+    padding-top: 5px;
+    color: white;
+}
+
+
+.color5
+{
+     background: -webkit-linear-gradient(#C03C44,#F56757); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C03C44,#F56757); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C03C44,#F56757); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C03C44,#F56757); /* Standard syntax (must be last) */
+    opacity: 0.85;
+    height:400px;
+    margin: 0 auto;
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+}
+
+#contact
+{
+    float:left;
+    margin:0 auto;
+    
+}
+
+#mypic
+{
+    margin:0 auto;
+    padding: 7px;
+   
+}
+
+
+.Icons li 
+{
+    display:inline;
+    list-style-type:none;
+    padding-left:5px;
+}
+
+.Icons 
+{
+    text-align: center;
+}
+
+
+
